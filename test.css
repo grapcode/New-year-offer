@@ -1,31 +1,52 @@
-.hero-section {
-  position: relative;
-  width: 100%;
-  height: 400px; /* প্রয়োজনমত height সেট করো */
-  background-image: url('your-image.jpg');
-  background-size: cover;
-  background-position: center;
+/* holidays section style  */
+.holidays{
+    text-align: center;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  /* গ্রেডিয়েন্ট কালার */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-
-  /* লেখাকে মাঝখানে আনতে Flex ব্যবহার */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.holidays h1{
+    font-size: 40px;
+    color: #FF0000;
+}
+.holidays p{
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
 }
 
-.overlay h1 {
-  color: white;
-  font-size: 36px;
-  font-weight: bold;
+.main-section {
+    width: 1170px;
+    height: 700px;
+    margin: 0 auto;
+    /* background-color: #f5f5f5; */
+    position: relative;
+    overflow: hidden;
+}
+/* ভেতরে লাল বার */
+.inner-bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    z-index: 1;
+}
+
+/* বাম পাশের ছবি */
+.img-left {
+    position: absolute;
+    bottom: 15px;
+    /* কিছুটা overlap */
+    left: 0;
+    height: 500px;
+    z-index: 2;
+}
+
+/* ডান পাশের ছবি */
+.img-right {
+    position: absolute;
+    bottom: 250px;
+    right: 80px;
+    height: 300px;
+    z-index: 2;
 }

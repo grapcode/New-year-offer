@@ -1,3 +1,8 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -18,7 +23,7 @@ body {
     font-variation-settings: "wdth" 100;
 }
 section{
-    margin: 50px auto;
+    margin: 70px auto;
 }
 /* banner section styles  */
 .banner{
@@ -42,12 +47,195 @@ section{
     align-items: center;
     text-align: center;
 }
-
-
 .new-year-title{
     font-size: 30px;
 }
 .new-year-party {
     font-size: 60px;
     margin-top: 0px;
+}
+
+/* all categories styles */
+.all-categories {
+    text-align: center;
+}
+.categories-container{
+    text-align: center;
+}
+.categories-container h2{
+    font-size: 60px;
+    color: #FF0000;
+    margin-bottom: 0px;
+}
+.categories-container p{
+    font-size: 20px;
+    color: #FF0000;
+}
+.categories-container h3{
+    font-size: 30px;
+}
+
+/* midnight party styles */
+.midnight-party{
+    position: relative;
+}
+.midnights{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.midnight-container{
+    color: #fff;
+    gap: 20px;
+    padding: 30px 60px;
+}
+.midnight-container h1{
+    color: #fff;
+    font-size: 40px;
+}
+.midnight-container h6{
+    font-size: 16px;
+    
+}
+
+/* join section styles  */
+.join{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.151), rgba(255, 0, 0, 0) );
+    height: 400px;
+    width: 100%;
+    padding: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.join-time{
+    width: 100%;
+    font-size: 20px;
+}
+.join-time h3 span{
+    color: #FF0000;
+}
+.join-time .btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #FF0000;
+    color: #fff;
+    font-weight: bold;
+}
+/* coming section styles  */
+.coming{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.coming-container .coming-img{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+.coming-container h3{
+    font-size: 30px;
+    color: #FF0000;
+}
+.coming-container h6{
+    color: #FF0000;
+}
+/* holidays section style  */
+.holidays{
+    height: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holidays h6{
+    font-size: 25px;
+}
+.holidays h1{
+    font-size: 55px;
+    color: #FF0000;
+}
+.holidays p{
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+
+.holi-img{
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+}
+.inner-bottom-bar{
+    background-color: #FF0000;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 20;
+    z-index: 1;
+
+}
+.img-left{
+    position: absolute;
+    height: 600px;
+    left: 0;
+    bottom: 15px;
+    z-index: 2;
+}
+.img-right{
+    position: absolute;
+    height: 300px;
+    right: 40px;
+    bottom: 250px;
+    z-index: 2;
+}
+/* portfolio section styles  */
+.portfolio h1{
+    font-size: 50px;
+}
+.portfolio p{
+    width: 900px;
+}
+.portfolio-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.portfolio-img img{
+    width: 32%;
+}
+/* newsletter section styles  */
+.newsletter{
+    background-color: #ff000013;
+    height: 500px;
+    text-align: center;
+}
+.newsletter p{
+    padding: 0 200px;
+}
+.newsletter{
+    
+}
+.news-btn input, button{
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+}
+.news-btn button{
+    background-color: #FF0000;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+}
+.news-btn input{
+    border-radius: 50px 0px 0px 50px;
 }
