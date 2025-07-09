@@ -1,0 +1,31 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 400px; /* প্রয়োজনমত height সেট করো */
+  background-image: url('your-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* গ্রেডিয়েন্ট কালার */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+  /* লেখাকে মাঝখানে আনতে Flex ব্যবহার */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
