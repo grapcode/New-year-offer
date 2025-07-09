@@ -239,3 +239,27 @@ section{
 .news-btn input{
     border-radius: 50px 0px 0px 50px;
 }
+/* footer section styles  */
+footer{
+    background-color: #070211;
+    height: 500px;
+}
+.footer-container{
+    color: #fff;
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 100px 10px;
+    justify-content: space-between;
+}
+
+.text-group p{
+    width: 300px;
+}
+.fot-img{
+    text-align: center;
+}
+.fot-img img{
+    padding: 0 15px;
+}
